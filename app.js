@@ -8,5 +8,4 @@ app.use(express.json());
 app.use('/api/auth', authroutes);
 
 
-
-module.exports = app;
+module.exports = app;  
