@@ -1,0 +1,30 @@
+{
+  "name": "scatch",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "main",
+    "scatch"
+  ],
+  "homepage": "https://github.com/saksham-rathore/scatch-project#readme",
+  "bugs": {
+    "url": "https://github.com/saksham-rathore/scatch-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saksham-rathore/scatch-project.git"
+  },
+  "license": "ISC",
+  "author": "sammy",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  }
+}
