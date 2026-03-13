@@ -1,8 +1,9 @@
 const express = require("express");
 const app = express();
-const user = require("./models/user");
+const userModel = require("./models/user");
 
 app.get('/create', async (req, res) => {
+    let {name, email, password} = req.body;
     let createduser = await userModel.create({
         name,
         email,
